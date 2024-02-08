@@ -56,7 +56,7 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
-                console.log(phoneNumber+ 'Hello David')
+                console.log(phoneNumber+ 'Hello David!')
     
                 const sendTextResponse=await fetch(
                   'https://dev.stedi.me/twofactorlogin/'+phoneNumber,
