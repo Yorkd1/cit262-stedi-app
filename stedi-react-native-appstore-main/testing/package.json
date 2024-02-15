@@ -1,0 +1,21 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing practice",
+  "main": "helloworld.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha",
+    "type": "module"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.3.0"
+  }
+}
